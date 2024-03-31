@@ -14,6 +14,15 @@ class TextStyles {
     fontFamily: 'Aeonik',
     fontSize: 20.0,
     fontWeight: FontWeight.bold,
+    color: AppColors.black,
+    letterSpacing: 0.0,
+    height: 24/20,
+  );
+
+  static const TextStyle aeonikBold20White = TextStyle(
+    fontFamily: 'Aeonik',
+    fontSize: 20.0,
+    fontWeight: FontWeight.bold,
     color: AppColors.white,
     letterSpacing: 0.0,
     height: 24/20,
@@ -64,9 +73,9 @@ class TextStyles {
     height: 11/10,
   );
 
-  static const TextStyle robotoBold12Uppercase = TextStyle(
+  static const TextStyle robotoBold14Uppercase = TextStyle(
     fontFamily: 'Roboto',
-    fontSize: 12.0,
+    fontSize: 14.0,
     fontWeight: FontWeight.bold,
     color: AppColors.black,
     letterSpacing: 0.0,
@@ -167,6 +176,24 @@ class TextStyles {
     fontFamily: 'NunitoSans',
     fontSize: 12.0,
     fontWeight: FontWeight.normal,
+    color: AppColors.grey, // Grey color code
+    letterSpacing: 0.0,
+    height: 16/12,
+  );
+
+  static const TextStyle nunitoSansRegular14GreyUppercase = TextStyle(
+    fontFamily: 'NunitoSans',
+    fontSize: 14.0,
+    fontWeight: FontWeight.normal,
+    color: AppColors.grey, // Grey color code
+    letterSpacing: 0.0,
+    height: 16/12,
+  );
+
+  static const TextStyle nunitoSansRegular14GreyBoldUppercase = TextStyle(
+    fontFamily: 'NunitoSans',
+    fontSize: 14.0,
+    fontWeight: FontWeight.bold,
     color: AppColors.grey, // Grey color code
     letterSpacing: 0.0,
     height: 16/12,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fudge_financial_app/ui/screens/home_screen.dart';
-import 'package:fudge_financial_app/ui/utils/text_styles.dart';
+import 'package:fudge_financial_app/ui/utils/router.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+      onGenerateRoute: AppRouter.generateRoute,
       home: HomeScreen(),
     );
   }
